@@ -33,3 +33,12 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
+brews:
+  - tap:
+      owner: thrgamon
+      name: status
+    folder: Formula
+    homepage:  https://github.com/thrgamon/status
+    description: A simple tool for getting information on http status codes.
+    install: |-
+      bin.install "status"
